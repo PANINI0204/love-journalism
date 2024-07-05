@@ -1,0 +1,788 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>新闻网</title>
+    <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+     <!--jQuery (necessary for Bootstrap's JavaScript plugins)-->
+    <!--<script src="js/jquery.min.js"></script>-->
+    <!--import  * from 'js/jquery.min.js';-->
+
+    <!--import  * from  'js/jquery.min.js';-->
+    <!--import  * from 'css/bootstrap.css';-->
+    <!--import  * from 'js/classie.js';-->
+    <!--import  * from 'js/uisearch.js';-->
+
+    <!--import * from 'js/jquery.marquee.min.js';-->
+    <!--import * from 'js/move-top.js';-->
+    <!--import * from 'js/easing.js';-->
+    <!--import * from 'js/responsiveslides.min.js';-->
+    <!--import * from 'css/*';-->
+    <!--import * from 'images/*';-->
+
+    <!--import * from 'fonts/*';-->
+
+    <!--import * from 'js/*';-->
+
+
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <!--import * from 'css/style.css';-->
+    <!--import * from 'js/bootstrap.js';-->
+    <!-- Custom Theme files -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="Express News Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template,
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <!-- for bootstrap working -->
+    <!--<script type="text/javascript" src="js/bootstrap.js"></script>-->
+
+    <!-- //for bootstrap working -->
+    <!-- web-fonts -->
+    <!--<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>-->
+    <!--<link href='//fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>-->
+    <!--<script src="js/responsiveslides.min.js"></script>-->
+
+
+    <script>
+        $(function () {
+            $("#slider").responsiveSlides({
+                auto: true,
+                nav: true,
+                speed: 500,
+                namespace: "callbacks",
+                pager: true,
+            });
+        });
+    </script>
+
+    <!--<script type="text/javascript" src="js/move-top.js"></script>-->
+    <!--<script type="text/javascript" src="js/easing.js"></script>-->
+    <!--/script-->
+    <script type="text/javascript">
+        jQuery(document).ready(function($) {
+            $(".scroll").click(function(event){
+                event.preventDefault();
+                $('html,body').animate({scrollTop:$(this.hash).offset().top},900);
+            });
+        });
+    </script>
+</head>
+<body>
+<!-- header-section-starts-here -->
+<div class="header">
+    <div class="header-top">
+        <div class="wrap">
+            <div class="top-menu">
+                <ul>
+                    <li><a href="index.html">主页</a></li>
+                    <li><a href="about.html">关于我们</a></li>
+                    <li><a href="privacy-policy.html">隐私</a></li>
+                    <li><a href="contact.html">联系我们</a></li>
+                </ul>
+            </div>
+            <div class="num">
+                <p> 请致电: 13784880928</p>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    <div class="header-bottom">
+        <div class="logo text-center">
+            <a href="index.html">
+                <!--					<img src="images/logo.jpg" alt="" />-->
+            </a>
+        </div>
+        <div class="navigation">
+            <nav class="navbar navbar-default" role="navigation">
+                <div class="wrap">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">切换导航</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+
+                    </div>
+                    <!--/.navbar-header-->
+
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="index.html">主页</a></li>
+                            <li><a href="sports.html">体育运动</a></li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">娱乐<b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="entertainment.html">电影</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="entertainment.html">实时</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="entertainment.html">文章</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="entertainment.html">明星</a></li>
+                                    <li class="divider"></li>
+                                    <!--							<li><a href="entertainment.html">链接</a></li>-->
+                                </ul>
+                            </li>
+                            <li><a href="shortcodes.html">医疗</a></li>
+                            <li><a href="fashion.html">时尚</a></li>
+                            <li class="dropdown">
+                                <a href="business.html" class="dropdown-toggle" data-toggle="dropdown">商业<b class="caret"></b></a>
+                                <ul class="dropdown-menu multi-column columns-2">
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <ul class="multi-column-dropdown">
+                                                <li><a href="business.html">军事</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="business.html">篮球</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="business.html">金融</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="business.html">点评</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="shortcodes.html">短信</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <ul class="multi-column-dropdown">
+                                                <li><a href="business.html">产品</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="entertainment.html">电影</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="sports.html">体育</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="business.html">点评</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="business.html">股票</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </ul>
+                            </li>
+                            <li><a href="technology.html">科技</a></li>
+                            <div class="clearfix"></div>
+                        </ul>
+                        <div class="search">
+                            <!-- start search-->
+                            <div class="search-box">
+                                <div id="sb-search" class="sb-search">
+                                    <form>
+                                        <input class="sb-search-input" placeholder="Enter your search term..." type="search" name="search" id="search">
+                                        <input class="sb-search-submit" type="submit" value="">
+                                        <span class="sb-icon-search"> </span>
+                                    </form>
+                                </div>
+                            </div>
+                            <!-- search-scripts -->
+
+                            <script>
+                                new UISearch( document.getElementById( 'sb-search' ) );
+                            </script>
+                            <!-- //search-scripts -->
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+                <!--/.navbar-collapse-->
+                <!--/.navbar-->
+            </nav>
+        </div>
+
+    </div>
+</div>
+<!-- header-section-ends-here -->
+<div class="wrap">
+    <div class="move-text">
+        <div class="breaking_news">
+            <h2>最新新闻</h2>
+        </div>
+        <div class="marquee">
+            <div class="marquee1"><a class="breaking" href="single.html">>>17岁中专女生进入全球数学竞赛决赛</a></div>
+            <div class="marquee2"><a class="breaking" href="single.html">>>央视点名“鼓浪屿宰客”</a></div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="clearfix"></div>
+        <!--<script type="text/javascript" src="js/jquery.marquee.min.js"></script>-->
+        <script>
+            $('.marquee').marquee({ pauseOnHover: true });
+            //@ sourceURL=pen.js
+        </script>
+    </div>
+</div>
+<!-- 内容部分-->
+<div class="main-body">
+    <div class="wrap">
+        <div class="col-md-8 content-left">
+            <div class="slider">
+                <div class="callbacks_wrap">
+                    <ul class="rslides" id="slider">
+                        <li>
+                            <img src="images/zhongzhuan.jpg" alt="">
+                            <div class="caption">
+                                <a href="single.html">17岁中专女生进入全球数学竞赛决赛</a>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="images/gulang.jpg" alt="">
+                            <div class="caption">
+                                <a href="single.html">央视点名“鼓浪屿宰客”</a>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="images/kafei.jpg" alt="">
+                            <div class="caption">
+                                <a href="single.html">Manner咖啡事件</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <div class="articles">
+                <header>
+                    <h3 class="title-head">学术前沿</h3>
+                </header>
+                <div class="article">
+                    <div class="article-left">
+                        <a href="single.html"><img src="images/article1.jpg"></a>
+                    </div>
+                    <div class="article-right">
+                        <div class="article-title">
+                            <p>On Feb 25, 2015 <a class="span_link" href="#"><span class="glyphicon glyphicon-comment"></span>0 </a><a class="span_link" href="#"><span class="glyphicon glyphicon-eye-open"></span>104 </a><a class="span_link" href="#"><span class="glyphicon glyphicon-thumbs-up"></span>52</a></p>
+                            <a class="title" href="single.html"> “边界工作”（boundary-work）</a>
+                        </div>
+                        <div class="article-text">
+                            <p>科学社会学家吉尔因（Gieryn）在研究科学划界问题时提出的重要概念，即“科学家选择性地赋予科学体制（即其从业者、方法、知识存量、价值和工作的组织）一些特性，以建构一条将一些知识活动区别为‘非科学’的社会边界”。</p>
+                            <a href="single.html"><img src="images/more.png" alt="" /></a>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="article">
+                    <div class="article-left">
+                        <a href="single.html"><img src="images/2.jpg"></a>
+                    </div>
+                    <div class="article-right">
+                        <div class="article-title">
+                            <p>On Apr 11, 2015 <a class="span_link" href="#"><span class="glyphicon glyphicon-comment"></span>2 </a><a class="span_link" href="#"><span class="glyphicon glyphicon-eye-open"></span>54 </a><a class="span_link" href="#"><span class="glyphicon glyphicon-thumbs-up"></span>18</a></p>
+                            <a class="title" href="single.html">数字排毒代表了一种反数字依赖的实践。</a>
+                        </div>
+                        <div class="article-text">
+                            <p>似于我们之前所说的数字断连（Digital Disconnection）或新闻回避(News Avoidance)。数字依赖被定义为，个人不使用互联网、手机、平板电脑、社交媒体等数字设备的情况下，缺乏行动的自主性或独立性。</p>
+                            <a href="single.html"><img src="images/more.png" alt="" /></a>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="article">
+                    <div class="article-left">
+                        <a href="single.html"><img src="images/article3.jpg"></a>
+                    </div>
+                    <div class="article-right">
+                        <div class="article-title">
+                            <p>On Jun 21, 2015 <a class="span_link" href="#"><span class="glyphicon glyphicon-comment"></span>0 </a><a class="span_link" href="#"><span class="glyphicon glyphicon-eye-open"></span>181 </a><a class="span_link" href="#"><span class="glyphicon glyphicon-thumbs-up"></span>89</a></p>
+                            <a class="title" href="single.html">价值对齐（value alignment）</a>
+                        </div>
+                        <div class="article-text">
+                            <p>斯图尔特·罗素（Stuart Russell）曾在“人工智能的神话”（The Myth Of AI）访谈中提出价值对齐问题（value alignment problem），即人们需要构建可证明符合人类价值观的智能，而不是纯粹的智能。</p>
+                            <a href="single.html"><img src="images/more.png" alt="" /></a>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="article">
+                    <div class="article-left">
+                        <a href="single.html"><img src="images/article4.jpg"></a>
+                    </div>
+                    <div class="article-right">
+                        <div class="article-title">
+                            <p>On Jan 17, 2015 <a class="span_link" href="#"><span class="glyphicon glyphicon-comment"></span>1 </a><a class="span_link" href="#"><span class="glyphicon glyphicon-eye-open"></span>144 </a><a class="span_link" href="#"><span class="glyphicon glyphicon-thumbs-up"></span>74</a></p>
+                            <a class="title" href="single.html">时间和空间是人类生存的两大维度</a>
+                        </div>
+                        <div class="article-text">
+                            <p>19世纪工业革命带来的时空压缩，促成知识界形成“空间屈从于时间”的认识。长久以来，在时间和空间的博弈中，时间长期处于支配地位，而空间在历史的进程中则常被忽略。</p>
+                            <a href="single.html"><img src="images/more.png" alt="" /></a>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="article">
+                    <div class="article-left">
+                        <a href="single.html"><img src="images/1.jpg"></a>
+
+                    </div>
+                    <div class="article-right">
+                        <div class="article-title">
+                            <p>On Mar 14, 2015 <a class="span_link" href="#"><span class="glyphicon glyphicon-comment"></span>0 </a><a class="span_link" href="#"><span class="glyphicon glyphicon-eye-open"></span>250 </a><a class="span_link" href="#"><span class="glyphicon glyphicon-thumbs-up"></span>68</a></p>
+                            <a class="title" href="single.html">情感转向</a>
+                        </div>
+                        <div class="article-text">
+                            <p>随着数字技术与数字媒介的勃兴，正视新闻文本中蕴藏的情感偏向、探查公众的情感结构与新闻的情感表达之间的互构关系，关注新闻人工作内外的情感劳动，已被新闻研究者纳入检视之中。</p>
+                            <a href="single.html"><img src="images/more.png" alt="" /></a>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+            <div class="life-style">
+                <header>
+                    <h3 class="title-head">考研资讯</h3>
+                </header>
+                <div class="life-style-grids">
+                    <div class="life-style-left-grid">
+                        <a href="single.html"><img src="images/l1.jpg" alt="" /></a>
+                        <a class="title" href="single.html">考研时间</a>
+                    </div>
+                    <div class="life-style-right-grid">
+                        <a href="single.html"><img src="images/l2.jpg" alt="" /></a>
+                        <a class="title" href="single.html">报名流程</a>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="life-style-grids">
+                    <div class="life-style-left-grid">
+                        <a href="single.html"><img src="images/l3.jpg" alt="" /></a>
+                        <a class="title" href="single.html">考研政策</a>
+                    </div>
+                    <div class="life-style-right-grid">
+                        <a href="single.html"><img src="images/l4.jpg" alt="" /></a>
+                        <a class="title" href="single.html">其他注意事项</a>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+            <div class="sports-top">
+                <div class="s-grid-left">
+                    <div class="cricket">
+                        <header>
+                            <h3 class="title-popular">推荐</h3>
+                        </header>
+                        <div class="c-sports-main">
+                            <div class="c-image">
+                                <a href="single.html"><img src="images/bus1.jpg" alt="" /></a>
+                            </div>
+                            <div class="c-text">
+                                <h6>新闻与传播学术前沿</h6>
+                                <a class="power" href="single.html">依托中国社会科学院新闻与传播研究所，关注国内外新闻与传播前沿问题，提供最新的学术研究成果和行业动态。</a>
+                                <p class="date">On Feb 25, 2015</p>
+                                <a class="reu" href="single.html"><img src="images/more.png" alt="" /></a>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="s-grid-small">
+                            <div class="sc-image">
+                                <a href="single.html"><img src="images/bus2.jpg" alt="" /></a>
+                            </div>
+                            <div class="sc-text">
+                                <h6>青年记者：</h6>
+                                <a class="power" href="single.html">《青年记者》官方公众号，涵盖新闻学、传播学、网络与新媒体等多个领域，为青年记者和新闻传播学子提供实用的业务指导和行业动态。</a>
+                                <p class="date">On Mar 21, 2015</p>
+                                <a class="reu" href="single.html"><img src="images/more.png" alt="" /></a>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="s-grid-small">
+                            <div class="sc-image">
+                                <a href="single.html"><img src="images/bus3.jpg" alt="" /></a>
+                            </div>
+                            <div class="sc-text">
+                                <h6>风声评论：</h6>
+                                <a class="power" href="single.html">凤凰网评论频道官方微信，发布时事评论和深度分析，关注社会热点和公共事务。</a>
+                                <p class="date">On Jan 25, 2015</p>
+                                <a class="reu" href="single.html"><img src="images/more.png" alt="" /></a>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="s-grid-small">
+                            <div class="sc-image">
+                                <a href="single.html"><img src="images/bus4.jpg" alt="" /></a>
+                            </div>
+                            <div class="sc-text">
+                                <h6>新闻界：</h6>
+                                <a class="power" href="single.html">四川日报报业集团主管，中国新闻传播双核心期刊，关注新闻传播领域的最新研究动态和成果。</a>
+                                <p class="date">On Jul 19, 2015</p>
+                                <a class="reu" href="single.html"><img src="images/more.png" alt="" /></a>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="s-grid-right">
+                    <div class="cricket">
+                        <header>
+                            <h3 class="title-popular">点评</h3>
+                        </header>
+                        <div class="c-sports-main">
+                            <div class="c-image">
+                                <a href="single.html"><img src="images/tec1.jpg" alt="" /></a>
+                            </div>
+                            <div class="c-text">
+                                <h6>冰点周刊：</h6>
+                                <a class="power" href="single.html">中国青年报社的《冰点周刊》，关注社会热点和深度报道，以独特的视角解读社会现象和问题。</a>
+                                <p class="date">On Apr 22, 2015</p>
+                                <a class="reu" href="single.html"><img src="images/more.png" alt="" /></a>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="s-grid-small">
+                            <div class="sc-image">
+                                <a href="single.html"><img src="images/tec2.jpg" alt="" /></a>
+                            </div>
+                            <div class="sc-text">
+                                <h6>新闻记者：</h6>
+                                <a class="power" href="single.html">上海《新闻记者》杂志官方公众号，全国新闻核心期刊，关注新闻业务、新闻教育和新闻史等领域，发布深度报道和评论文章。</a>
+                                <p class="date">On Jan 19, 2015</p>
+                                <a class="reu" href="single.html"><img src="images/more.png" alt="" /></a>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="s-grid-small">
+                            <div class="sc-image">
+                                <a href="single.html"><img src="images/tec3.jpg" alt="" /></a>
+                            </div>
+                            <div class="sc-text">
+                                <h6>现代传播：</h6>
+                                <a class="power" href="single.html">《现代传播—中国传媒大学学报》官方账号，国家社科基金资助期刊，关注传播理论与实践，发布传媒领域的前沿文章和研究成果。</a>
+                                <p class="date">On Jun 25, 2015</p>
+                                <a class="reu" href="single.html"><img src="images/more.png" alt="" /></a>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="s-grid-small">
+                            <div class="sc-image">
+                                <a href="single.html"><img src="images/tec4.jpg" alt="" /></a>
+                            </div>
+                            <div class="sc-text">
+                                <h6>网络传播杂志：</h6>
+                                <a class="power" href="single.html">中央网信办主管，中国网络空间研究院主办的全国网信工作指导性</a>
+                                <p class="date">On Jul 19, 2015</p>
+                                <a class="reu" href="single.html"><img src="images/more.png" alt="" /></a>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+        <div class="col-md-4 side-bar">
+            <div class="first_half">
+                <div class="newsletter">
+                    <h1 class="side-title-head">搜索</h1>
+                    <form>
+                        <input type="text" class="text" value="内容" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '内容';}">
+                        <input type="submit" value="搜索">
+                    </form>
+                </div>
+                <div class="list_vertical">
+                    <section class="accordation_menu">
+                        <div>
+                            <input id="label-1" name="lida" type="radio" checked/>
+                            <label for="label-1" id="item1"><i class="ferme"> </i>理论类<i class="icon-plus-sign i-right1"></i><i class="icon-minus-sign i-right2"></i></label>
+                            <div class="content" id="a1">
+                                <div class="scrollbar" id="style-2">
+                                    <div class="force-overflow">
+                                        <div class="popular-post-grids">
+                                            <div class="popular-post-grid">
+                                                <div class="post-img">
+                                                    <a href="single.html"><img src="images/bus2.jpg" alt="" /></a>
+                                                </div>
+                                                <div class="post-text">
+                                                    <a class="pp-title" href="single.html"> 新闻与传播学术前沿：依托中国社会科学院新闻与传播研究所，关注国内外新闻与传播前沿问题，提供最新的学术研究成果和行业动态。</a>
+                                                    <p>On Feb 25 <a class="span_link" href="#"><span class="glyphicon glyphicon-comment"></span>3 </a><a class="span_link" href="#"><span class="glyphicon glyphicon-eye-open"></span>56 </a></p>
+                                                </div>
+                                                <div class="clearfix"></div>
+                                            </div>
+                                            <div class="popular-post-grid">
+                                                <div class="post-img">
+                                                    <a href="single.html"><img src="images/bus1.jpg" alt="" /></a>
+                                                </div>
+                                                <div class="post-text">
+                                                    <a class="pp-title" href="single.html"> 国际新闻界：新闻传播学科的国家社科基金首批资助期刊，全国中文核心期刊，发布国内外新闻传播领域的最新研究动态和成果。</a>
+                                                    <p>On Apr 14 <a class="span_link" href="#"><span class="glyphicon glyphicon-comment"></span>2 </a><a class="span_link" href="#"><span class="glyphicon glyphicon-eye-open"></span>56 </a></p>
+                                                </div>
+                                                <div class="clearfix"></div>
+                                            </div>
+                                            <div class="popular-post-grid">
+                                                <div class="post-img">
+                                                    <a href="single.html"><img src="images/bus3.jpg" alt="" /></a>
+                                                </div>
+                                                <div class="post-text">
+                                                    <a class="pp-title" href="single.html">现代传播：《现代传播—中国传媒大学学报》官方账号，国家社科基金资助期刊，关注传播理论与实践，发布传媒领域的前沿文章和研究成果。</a>
+                                                    <p>On Jun 25 <a class="span_link" href="#"><span class="glyphicon glyphicon-comment"></span>0 </a><a class="span_link" href="#"><span class="glyphicon glyphicon-eye-open"></span>56 </a></p>
+                                                </div>
+                                                <div class="clearfix"></div>
+                                            </div>
+                                            <div class="popular-post-grid">
+                                                <div class="post-img">
+                                                    <a href="single.html"><img src="images/bus4.jpg" alt="" /></a>
+                                                </div>
+                                                <div class="post-text">
+                                                    <a class="pp-title" href="single.html">新闻与写作：发布传媒最新动态，讲解新闻与写作要领，提供实用的写作技巧和案例分析。
+                                                        新闻记者：上海《新闻记者》杂志官方公众号，全国新闻核心期刊，关注新闻业务、新闻教育和新闻史等领域，发布深度报道和评论文章。</a>
+                                                    <p>On Jan 25 <a class="span_link" href="#"><span class="glyphicon glyphicon-comment"></span>1 </a><a class="span_link" href="#"><span class="glyphicon glyphicon-eye-open"></span>56 </a></p>
+                                                </div>
+                                                <div class="clearfix"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <input id="label-2" name="lida" type="radio"/>
+                            <label for="label-2" id="item2"><i class="icon-leaf" id="i2"></i>务实类<i class="icon-plus-sign i-right1"></i><i class="icon-minus-sign i-right2"></i></label>
+                            <div class="content" id="a2">
+                                <div class="scrollbar" id="style-2">
+                                    <div class="force-overflow">
+                                        <div class="popular-post-grids">
+                                            <div class="popular-post-grid">
+                                                <div class="post-img">
+                                                    <a href="single.html"><img src="images/tec2.jpg" alt="" /></a>
+                                                </div>
+                                                <div class="post-text">
+                                                    <a class="pp-title" href="single.html"> 剥洋葱people：新京报社出品，专注于人物深度报道，以独特的视角和深入的调查揭示人物的内心世界。	</a>
+                                                    <p>On Feb 25 <a class="span_link" href="#"><span class="glyphicon glyphicon-comment"></span>3 </a><a class="span_link" href="#"><span class="glyphicon glyphicon-eye-open"></span>56 </a></p>
+                                                </div>
+                                                <div class="clearfix"></div>
+                                            </div>
+                                            <div class="popular-post-grid">
+                                                <div class="post-img">
+                                                    <a href="single.html"><img src="images/tec1.jpg" alt="" /></a>
+                                                </div>
+                                                <div class="post-text">
+                                                    <a class="pp-title" href="single.html"> 冰点周刊：中国青年报社的《冰点周刊》，关注社会热点和深度报道，以独特的视角解读社会现象和问题。</a>
+                                                    <p>On Apr 14 <a class="span_link" href="#"><span class="glyphicon glyphicon-comment"></span>2 </a><a class="span_link" href="#"><span class="glyphicon glyphicon-eye-open"></span>56 </a></p>
+                                                </div>
+                                                <div class="clearfix"></div>
+                                            </div>
+                                            <div class="popular-post-grid">
+                                                <div class="post-img">
+                                                    <a href="single.html"><img src="images/tec3.jpg" alt="" /></a>
+                                                </div>
+                                                <div class="post-text">
+                                                    <a class="pp-title" href="single.html">风声评论：凤凰网评论频道官方微信，发布时事评论和深度分析，关注社会热点和公共事务。
+                                                        新京报评论：新京报社评论部官方微信，发布时事评论和深度报道，关注社会热点和公共事务。</a>
+                                                    <p>On Jun 25 <a class="span_link" href="#"><span class="glyphicon glyphicon-comment"></span>0 </a><a class="span_link" href="#"><span class="glyphicon glyphicon-eye-open"></span>56 </a></p>
+                                                </div>
+                                                <div class="clearfix"></div>
+                                            </div>
+                                            <div class="popular-post-grid">
+                                                <div class="post-img">
+                                                    <a href="single.html"><img src="images/tec4.jpg" alt="" /></a>
+                                                </div>
+                                                <div class="post-text">
+                                                    <a class="pp-title" href="single.html">吐槽青年：曹林的时政观察：专注于时事政治分析和评论，以独特的视角解读社会现象和问题。</a>
+                                                    <p>On Jan 25 <a class="span_link" href="#"><span class="glyphicon glyphicon-comment"></span>1 </a><a class="span_link" href="#"><span class="glyphicon glyphicon-eye-open"></span>56 </a></p>
+                                                </div>
+                                                <div class="clearfix"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <input id="label-3" name="lida" type="radio"/>
+                            <label for="label-3" id="item3"><i class="icon-trophy" id="i3"></i>期刊杂志类<i class="icon-plus-sign i-right1"></i><i class="icon-minus-sign i-right2"></i></label>
+                            <div class="content" id="a3">
+                                <div class="scrollbar" id="style-2">
+                                    <div class="force-overflow">
+                                        <div class="response">
+                                            <div class="media response-info">
+                                                <div class="media-left response-text-left">
+                                                    <a href="#">
+                                                        <img class="media-object" src="images/icon1.png" alt="" />
+                                                    </a>
+                                                    <h5><a href="#"></a></h5>
+                                                </div>
+                                                <div class="media-body response-text-right">
+                                                    <p>新闻大学：复旦大学新闻学院主办的新闻学术刊物，发布新闻传播领域的学术文章和研究成果。</p>
+                                                    <ul>
+                                                        <li>MARCH 21, 2015</li>
+                                                        <li><a href="single.html">Reply</a></li>
+                                                    </ul>
+                                                </div>
+                                                <div class="clearfix"> </div>
+                                            </div>
+                                            <div class="media response-info">
+                                                <div class="media-left response-text-left">
+                                                    <a href="#">
+                                                        <img class="media-object" src="images/icon1.png" alt="" />
+                                                    </a>
+                                                    <h5><a href="#"></a></h5>
+                                                </div>
+                                                <div class="media-body response-text-right">
+                                                    <p>新闻界：四川日报报业集团主管，中国新闻传播双核心期刊，关注新闻传播领域的最新研究动态和成果。</p>
+                                                    <ul>
+                                                        <li>MARCH 26, 2015</li>
+                                                        <li><a href="single.html">Reply</a></li>
+                                                    </ul>
+                                                </div>
+                                                <div class="clearfix"> </div>
+                                            </div>
+
+
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="side-bar-articles">
+                    <div class="side-bar-article">
+                        <a href="single.html"><img src="images/sai.jpg" alt="" /></a>
+                        <div class="side-bar-article-title">
+                            <a href="single.html">新闻传播学教育发展</a>
+                        </div>
+                    </div>
+                    <div class="side-bar-article">
+                        <a href="single.html"><img src="images/sai2.jpg" alt="" /></a>
+                        <div class="side-bar-article-title">
+                            <a href="single.html">新媒体与传统媒体的融合</a>
+                        </div>
+                    </div>
+                    <div class="side-bar-article">
+                        <a href="single.html"><img src="images/sai3.jpg" alt="" /></a>
+                        <div class="side-bar-article-title">
+                            <a href="single.html">人工智能在新闻传播中的应用</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="secound_half">
+                <div class="popular-news">
+                    <header>
+                        <h3 class="title-popular">行业动态</h3>
+                    </header>
+                    <div class="popular-grids">
+                        <div class="popular-grid">
+                            <a href="single.html"><img src="images/popular-4.jpg" alt="" /></a>
+                            <a class="title" href="single.html">大数据与新闻传播</a>
+                            <p>On Aug 31, 2015 <a class="span_link" href="#"><span class="glyphicon glyphicon-comment"></span>0 </a><a class="span_link" href="#"><span class="glyphicon glyphicon-eye-open"></span>250 </a><a class="span_link" href="#"><span class="glyphicon glyphicon-thumbs-up"></span>68</a></p>
+                        </div>
+                        <div class="popular-grid">
+                            <a href="single.html"><img src="images/popular-1.jpg" alt="" /></a>
+                            <a class="title" href="single.html">社交媒体与舆论引导</a>
+                            <p>On Mar 14, 2015 <a class="span_link" href="#"><span class="glyphicon glyphicon-comment"></span>0 </a><a class="span_link" href="#"><span class="glyphicon glyphicon-eye-open"></span>250 </a><a class="span_link" href="#"><span class="glyphicon glyphicon-thumbs-up"></span>68</a></p>
+                        </div>
+                        <div class="popular-grid">
+                            <a class="title" href="single.html"></a>
+                            <a href="single.html"><img src="images/bus3.jpg" alt="" /></a>
+                            <a class="title" href="single.html">国际新闻传播合作与交流</a>
+
+                            <p>On Mar 14, 2015 <a class="span_link" href="#"><span class="glyphicon glyphicon-comment"></span>0 </a><a class="span_link" href="#"><span class="glyphicon glyphicon-eye-open"></span>250 </a><a class="span_link" href="#"><span class="glyphicon glyphicon-thumbs-up"></span>68</a></p>
+                        </div>
+                        <div class="popular-grid">
+                            <a href="single.html"><img src="images/popular-3.jpg" alt="" /></a>
+                            <a class="title" href="single.html">新闻传播伦理与法规</a>
+                            <p>On Mar 14, 2015 <a class="span_link" href="#"><span class="glyphicon glyphicon-comment"></span>0 </a><a class="span_link" href="#"><span class="glyphicon glyphicon-eye-open"></span>250 </a><a class="span_link" href="#"><span class="glyphicon glyphicon-thumbs-up"></span>68</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</div>
+<!-- content-section-ends-here -->
+<!-- footer-section-starts-here -->
+<!--	<div class="footer">-->
+<!--		<div class="footer-top">-->
+<!--			<div class="wrap">-->
+<!--				<div class="col-md-3 col-xs-6 col-sm-4 footer-grid">-->
+<!--					<h4 class="footer-head">About Us</h4>-->
+<!--					<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>-->
+<!--					<p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here.</p>-->
+<!--				</div>-->
+<!--				<div class="col-md-2 col-xs-6 col-sm-2 footer-grid">-->
+<!--					<h4 class="footer-head">Categories</h4>-->
+<!--					<ul class="cat">-->
+<!--						<li><a href="business.html">Business</a></li>-->
+<!--						<li><a href="technology.html">Technology</a></li>-->
+<!--						<li><a href="entertainment.html">Entertainment</a></li>-->
+<!--						<li><a href="sports.html">Sports</a></li>-->
+<!--						<li><a href="shortcodes.html">Health</a></li>-->
+<!--						<li><a href="fashion.html">Fashion</a></li>-->
+<!--					</ul>-->
+<!--				</div>-->
+<!--				<div class="col-md-4 col-xs-6 col-sm-6 footer-grid">-->
+<!--					<h4 class="footer-head">Flickr Feed</h4>-->
+<!--					<ul class="flickr">-->
+<!--						<li><a href="#"><img src="images/bus4.jpg"></a></li>-->
+<!--						<li><a href="#"><img src="images/bus2.jpg"></a></li>-->
+<!--						<li><a href="#"><img src="images/bus3.jpg"></a></li>-->
+<!--						<li><a href="#"><img src="images/tec4.jpg"></a></li>-->
+<!--						<li><a href="#"><img src="images/tec2.jpg"></a></li>-->
+<!--						<li><a href="#"><img src="images/tec3.jpg"></a></li>-->
+<!--						<li><a href="#"><img src="images/bus2.jpg"></a></li>-->
+<!--						<li><a href="#"><img src="images/bus3.jpg"></a></li>-->
+<!--						<div class="clearfix"></div>-->
+<!--					</ul>-->
+<!--				</div>-->
+<!--				<div class="col-md-3 col-xs-12 footer-grid">-->
+<!--					<h4 class="footer-head">Contact Us</h4>-->
+<!--					<span class="hq">Our headquaters</span>-->
+<!--					<address>-->
+<!--						<ul class="location">-->
+<!--							<li><span class="glyphicon glyphicon-map-marker"></span></li>-->
+<!--							<li>CENTER FOR FINANCIAL ASSISTANCE TO DEPOSED NIGERIAN ROYALTY</li>-->
+<!--							<div class="clearfix"></div>-->
+<!--						</ul>	-->
+<!--						<ul class="location">-->
+<!--							<li><span class="glyphicon glyphicon-earphone"></span></li>-->
+<!--							<li>+0 561 111 235</li>-->
+<!--							<div class="clearfix"></div>-->
+<!--						</ul>	-->
+<!--						<ul class="location">-->
+<!--							<li><span class="glyphicon glyphicon-envelope"></span></li>-->
+<!--							<li><a href="mailto:info@example.com">mail@example.com</a></li>-->
+<!--							<div class="clearfix"></div>-->
+<!--						</ul>						-->
+<!--					</address>-->
+<!--				</div>-->
+<!--				<div class="clearfix"></div>-->
+<!--			</div>-->
+<!--		</div>-->
+<!--	</div>-->
+<!-- footer-section-ends-here -->
+<script type="text/javascript">
+    $(document).ready(function() {
+        /*
+        var defaults = {
+        wrapID: 'toTop', // fading element id
+        wrapHoverID: 'toTopHover', // fading element hover id
+        scrollSpeed: 1200,
+        easingType: 'linear'
+        };
+        */
+        $().UItoTop({ easingType: 'easeOutQuart' });
+    });
+</script>
+<a href="#to-top" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+<!---->
+</body>
+</html>
